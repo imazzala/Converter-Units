@@ -28,7 +28,7 @@ class _MyHomePageState extends State<MyHomePage> {
   String fromMeasureValue = "";
   String toMeasureValue = "";
   late double _toConvert;
-  TextStyle _style = TextStyle(fontSize: 20, fontWeight: FontWeight.w500, color: Colors.blueGrey);
+  final TextStyle _style = const TextStyle(fontSize: 20, fontWeight: FontWeight.w500, color: Colors.blueGrey);
 
 
   @override
